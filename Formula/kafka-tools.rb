@@ -3,10 +3,10 @@
 class KafkaTools < Formula
   desc "kafka-tools CLI"
   homepage "https://github.com/bengu3/kafka-tools"
-  url "https://github.com/bengu3/kafka-tools/releases/download/v2.0.0/kafka-tools.tar.gz"
-  sha256 "ce1a68b35f02c746cbb825e3b98d2acf0ff8eae6d6dbcd1df1ae1b41758f63fa"
+  url "https://github.com/bengu3/kafka-tools/releases/download/v2.1.0/kafka-tools.tar.gz"
+  sha256 "ad6c5ead3a1cee77a606990d8ddcc8fc180d008388146b8446716a757e1f608a"
   license "MIT"
-  version "2.0.0"
+  version "2.1.0"
 
   def install
     bin.install "kafka-tools"
